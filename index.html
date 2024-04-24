@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width; initial-scale=0.85; maximum-scale=0.85; user-scalable=0;">
+    <link rel="stylesheet" href="style.css">
+    <title>Title</title>
+</head>
+<body onload="startf()">
+
+<div id="zagolovok">
+<p id="zag" class="zagol">Белки: 0 Жиры: 0 Углеводы: 0 Калории: 0</p>
+</div>
+
+<div class="block2" id="table">
+
+</div>
+
+
+<form action="" method="post" class="block">
+    <input type="text" id="fasttext" class='blockdobav' placeholder="БЖУ через пробел">
+
+    <button onclick="fastdobav()" type="button" class="blockaccept">Add</button>
+</form>
+
+
+
+<button id="openModal" class="blockmenu" onclick="dobav()">Menu</button>
+
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <button class="close">close</button>
+    <p class="abzac">Здесь вы можете добавить новый продукт и установить суточную норму потребления</p>
+      <form action="" method="post" class="block">
+    <input type="text" id="message" class="newelem" placeholder="Новый элемент">
+    <button onclick="adder()" type="button" class="newelemadd">Add</button>
+    <br>
+      <input type="text" id="granica" placeholder="Лимит БЖУ" class="newelemgr">
+          <button onclick="dobavgranicu()" type="button" class="newalemgradd">Add</button>
+
+     <button onclick="udalgranicu()" type="button" class="udali">Del</button>
+
+</form>
+  </div>
+</div>
+
+<div id="modal2" class="modal">
+  <div class="modal-content2">
+    <button class="close2">close</button>
+    <p class="abzac">Здесь вы можете ввести количество выбранного продукта или удалить его</p>
+      <form action="" method="post" class="block">
+    <input type="text" id="message2" class='kolvo' placeholder="Введите количество">
+    <button  id='bebe' type="button" class="kolvoadd">Add</button>
+          <br>
+    <button class="del" type="button">Del</button>
+
+</form>
+  </div>
+</div>
+
+
+
+<div class="fixed"></div>
+
+<script src="site.js">onload()</script>
+<script src="site.js"></script>
+
+</body>
+</html>

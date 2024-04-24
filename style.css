@@ -1,0 +1,318 @@
+body{
+background-color: #FFFAFA;
+}
+.block{
+position:fixed;
+
+    z-index: 2;
+
+
+
+}
+.block2{
+    z-index: 1;
+
+}
+
+.fixed{
+height: 5000px;
+
+}
+}
+.block3{
+    top: 200px;
+
+}
+.table1{
+color: white;
+display: table;
+border-radius: 30px;
+position: sticky;
+top: 10px;
+height: 30px;
+width: 360px;
+border:
+    1px
+    solid
+    black;
+box-shadow: 5px 5px 5px #332d2d;
+background-color: #4169E1;
+font-size: 22px;
+}
+.table1:active{
+background-color: #4682B4;
+font-family: monaco, serif;
+}
+
+
+
+.modal {
+
+
+margin: 40px 10px;
+border-radius: 20px;
+  display: none;
+  position: fixed;
+  z-index: 4;
+  left: 0;
+  top: 0;
+ height: 320px;
+width: 350px;
+
+
+  overflow: auto;
+  background-color: #1E90FF;
+  box-shadow: 15px 15px 15px #332d2d;
+  border:
+    1px
+    solid
+    #696969;
+}
+
+
+
+
+.zagol{
+font-family: monaco, serif;
+font-size: 20px;
+}
+
+
+.blockmenu{
+position: fixed;
+ z-index: 2;
+height: 30px;
+width: 365px;
+top: 630px;
+border-radius: 25px;
+border:
+    1px
+    solid
+    #696969;
+box-shadow: 10px 10px 10px #696969;
+background-color: #FFA500;
+
+font-family: monaco, serif;
+font-size: 20px;
+}
+.blockmenu:active{
+background-color: #696969;
+font-family: monaco, serif;
+}
+
+
+
+.blockdobav{
+position: fixed;
+top: 590px;
+ z-index: 2;
+  height: 30px;
+width: 280px;
+border-radius: 25px 0px 0px 25px;
+border:
+    1px
+    solid
+    #696969;
+
+font-family: monaco, serif;
+font-size: 20px;
+box-shadow: 10px 10px 10px #696969;
+}
+
+.blockaccept{
+font-weight: 400;
+font-size: 20px;
+position: fixed;
+z-index: 2;
+color: white;
+background-color: #00FF00;
+height: 34px;
+width: 80px;
+top: 590px;
+left: 293px;
+border-radius: 0px 25px 25px 0px;
+border:
+    1px
+    solid
+    #696969;
+box-shadow: 10px 10px 10px #696969;
+}
+.blockaccept:active{
+background-color: #006400;
+font-family: monaco, serif;
+}
+.udali{
+    font-weight: bold;
+height:20px;
+width:60px;
+background-color: #bd0606;
+color: white;
+border-radius: 20px;
+    margin: 0px 60px;
+border:
+    1px
+    solid
+    #FF0000;
+
+font-size: 15px;
+}
+.udali:active{
+background-color: #B22222;
+font-family: monaco, serif;
+}
+.close{
+font-weight: bold;
+height:25px;
+width:100px;
+background-color: #bd0606;
+color: white;
+border-radius: 20px 0px 20px 0px;
+border:
+    1px
+    solid
+    #B22222;
+}
+.close:active{
+background-color: #800000;
+font-family: monaco, serif;
+}
+.close2{
+ font-weight: bold;
+height:25px;
+width:100px;
+background-color: #bd0606;
+color: white;
+border-radius: 20px 0px 20px 0px;
+border:
+    1px
+    solid
+    #B22222;
+}
+.close2:active{
+background-color: #800000;
+font-family: monaco, serif;
+}
+.newelem{
+z-index: 2;
+  height: 20px;
+width: 150px;
+border-radius: 25px 0px 0px 25px;
+border:
+    1px
+    solid
+    #696969;
+margin: 50px 20px;
+font-family: monaco, serif;
+font-size: 15px;
+}
+.newelemadd{
+font-weight: bold;
+position: fixed;
+z-index: 2;
+color: white;
+background-color: #00FF00;
+height: 24px;
+width: 40px;
+font-size: 15px;
+margin: 50px -21px;
+border-radius: 0px 25px 25px 0px;
+border:
+    1px
+    solid
+    #696969;
+}
+.newelemadd:active{
+background-color: #006400;
+font-family: monaco, serif;
+}
+.newelemgr{
+z-index: 2;
+  height: 20px;
+width: 150px;
+border-radius: 25px 0px 0px 25px;
+border:
+    1px
+    solid
+    #696969;
+margin: 1px 20px;
+font-family: monaco, serif;
+font-size: 15px;
+}
+
+.newalemgradd{
+    font-weight: bold;
+position: fixed;
+z-index: 2;
+color: white;
+background-color: #00FF00;
+height: 24px;
+width: 40px;
+
+margin: 1px -25px;
+border-radius: 0px 25px 25px 0px;
+border:
+    1px
+    solid
+    #696969;
+font-size: 15px;
+}
+.newalemgradd:active{
+background-color: #006400;
+font-family: monaco, serif;
+}
+.abzac{
+font-family: monaco, serif;
+font-size: 15px;
+text-align: center;
+}
+.kolvo{
+z-index: 2;
+  height: 30px;
+width: 100px;
+border-radius: 25px 0px 0px 25px;
+border:
+    1px
+    solid
+    #696969;
+margin: 50px 90px;
+font-family: monaco, serif;
+font-size: 15px;
+}
+.kolvoadd{
+ font-weight: bold;
+position: fixed;
+z-index: 2;
+color: white;
+background-color: #00FF00;
+height: 34px;
+width: 40px;
+font-size: 15px;
+margin: 50px -91px;
+border-radius: 0px 25px 25px 0px;
+border:
+    1px
+    solid
+    #696969;
+}
+.kolvoadd:active{
+background-color: #006400;
+font-family: monaco, serif;
+}
+.del{
+ font-weight: 900;
+    height:30px;
+width:50px;
+background-color: #bd0606;
+color: white;
+border-radius: 20px;
+    margin: -5px 130px;
+border:
+    1px
+    solid
+    #B22222;
+font-size: 15px;
+}
+.del:active{
+background-color: #800000;
+font-family: monaco, serif;
+}
